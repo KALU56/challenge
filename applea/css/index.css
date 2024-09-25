@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.continer-header ul li{
+    text-decoration: none;
+}
+.continer-header ul{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.continer{
+    text-decoration: none;
+}
+.continer-header img{
+    width: 18px;
+}
+
+.continer-header{
+padding-top: 10px;
+margin-left: 125px;
+background-color: black;
+  width: 80%;
+  height: 55px;
+}
+.all-header{
+    background-color: black;
+}
+.MacBook-page{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+    height: 700px;
+}
+.mackbook{
+    width: 900px;
+    height: 410px;
+    background-color: white;
+    
+}
+.macinch,.pro,.macdescription,.link,.macimg{
+    font-size:xx-large;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.iPhone-11page{
+    background-color: black;
+}
+.iphone{
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+
+}
+.iphone-11,.description-iphone,.money,.link{
+    font-size:xx-large;
+    padding-bottom: 5px;
+    text-align: center;
+  
+}
+.iphoneimg img{
+    width: 100%;
+    
+}
+.iPhone11many{
+    background-color: beige;
+    color: black;
+}
+.iPhone11many{
+    background-image: url("../images/home/iphone11-bg.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+	color: black;
+    margin-bottom: 25px;
+
+}
+.watchandcard{
+    display: flex;
+    justify-content: space-between;
+}
+.applewatch{
+    /* padding: 15px; */
+    background-image: url("../images/home/watch-series-5.jpg");
+	height: 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	width: 47%;
+
+    margin: auto;
+ 
+	padding: 65px 20px;
+	color: black;
+}
+.watch0{
+    text-align: center;
+    
+}
+.applecard{
+    background-image: url("../images/home/apple-card.jpg");
+	height: 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 47%;
+  margin: auto;
+	padding: 65px 20px;
+	color: black;
+}
+.card1{
+    text-align: center;
+}
