@@ -125,3 +125,33 @@ background-color: black;
 .card1{
     text-align: center;
 }
+.tvandairpod{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.tv{
+    background-image: url("../images/home/apple-tv-background.jpg");
+	height: 526px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 53%;
+ 
+	padding: 65px 20px;
+	color: black;
+}
+.airpod{
+    background-image: url("../images/home/air-pods.jpg");
+	height: 526px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+ background-color: black;
+height: 560px;
+  width: 42%;
+ 
+
+	color:white;
+}
