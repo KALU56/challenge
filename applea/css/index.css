@@ -126,6 +126,7 @@ background-color: black;
     text-align: center;
 }
 .tvandairpod{
+    display: inline-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
