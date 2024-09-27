@@ -212,7 +212,7 @@ body {
 /*Fourth Highlight Section */
 .fourth-heghlight-wrapper {
 	display: flex;
-  -webkit-box-pack: justify;
+  /* -webkit-box-pack: justify; */
   justify-content: space-between;
   background: #fff;
 }
@@ -262,7 +262,7 @@ body {
 	background-image:  url("../images/home/air-pods.jpg"); 
 	color: #fff; 
 	background-size: initial;
-	background-color: #000;
+	background-color: #040404;
 	background-position: bottom;
 }
 .logo-wrapper {

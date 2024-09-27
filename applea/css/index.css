@@ -24,10 +24,12 @@ img{
 }
 
 .continer-header{
+    width: 980px;
+    margin: auto;
 padding-top: 10px;
-margin-left: 125px;
+/* margin-left: 125px; */
 background-color: black;
-  width: 80%;
+  /* width: 80%; */
   height: 55px;
 }
 .all-header{
@@ -52,14 +54,16 @@ background-color: black;
     height: 700px;
 }
 .mackbook{
-    width: 900px;
-    height: 410px;
+    width: 980px;
+    font-size: 1em;
+    margin: auto;
+    /* height: 410px; */
     background-color: white;
     
 }
 .macinch,.pro,.macdescription,.link,.macimg{
-    font-size:xx-large;
-    padding-bottom: 5px;
+    /* font-size:xx-large;
+    padding-bottom: 5px; */
     text-align: center;
 }
 /* page3 */
@@ -93,7 +97,7 @@ background-color: black;
 }
 .iPhone11many{
     background-image: url("../images/home/iphone11-bg.jpg");
-	height: 580px;
+	/* height: 580px; */
 	background-position: center;
 	background-repeat: no-repeat;
   background-size: cover;
@@ -174,7 +178,7 @@ height: 560px;
 	color:white;
 }
 /* for footer */
-.footer-wrapper{
+/* .footer-wrapper{
     color: rgb(98, 95, 95);
     background-color: rgb(229, 229, 229);
 }
@@ -213,7 +217,8 @@ color: rgb(98, 95, 95);
     text-decoration: none;
     color: rgb(98, 95, 95);
 
-}
+} */
+ 
 footer-wrapper {
     background-color: #f5f5f7;
     color: #1d1d1f;
@@ -278,9 +283,9 @@ footer-wrapper {
   .footer-links-terms ul li a:hover {
       text-decoration: underline;
   }
-  .footer-country {
+  /* .footer-country {
       display: inline-block;
-  }
+  } */
   .flag-wrapper {
       display: inline-block;
       vertical-align: middle;
@@ -291,7 +296,7 @@ footer-wrapper {
   }
   
   /* Main Highlight */
-  /* .main-highlight-wrapper {
+   .main-highlight-wrapper {
       background: #fafafa;
       text-align: center;
       padding: 25px 0;
@@ -328,7 +333,7 @@ footer-wrapper {
     font-weight: 900;
     content: "\f105";
     padding-left: 10px;
-  } */
+  } 
   
 
 
