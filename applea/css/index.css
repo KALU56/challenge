@@ -3,9 +3,13 @@
     margin: 0;
     
 }
+img{
+    max-width: 100%;
+}
 /* header */
-.continer-header ul li{
+.continer-header ul li a{
     text-decoration: none;
+    color: #fff;
 }
 .continer-header ul{
     display: flex;
@@ -28,6 +32,15 @@ background-color: black;
 }
 .all-header{
     background-color: black;
+}
+.link li{
+    list-style: none;
+}
+.link li a{
+    display: inline-block;
+    /* display: flex; */
+    text-decoration: none;
+    /* justify-content: space-between; */
 }
 /* 2nd page */
 .MacBook-page{
@@ -159,4 +172,31 @@ height: 560px;
  
 
 	color:white;
+}
+/* for footer */
+.footer-wrapper{
+    color: rgb(98, 95, 95);
+    background-color: rgb(229, 229, 229);
+}
+
+.footer-links-wrapper{
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+.footer-links-wrapper ul {
+    list-style: none;
+}
+
+.footer-links-wrapper ul a{
+text-decoration: none;
+color: rgb(98, 95, 95);
+
+}
+.footer-links-wrapper h3{
+    color: black;
+}
+.footer-links-wrapper a:hover {
+	text-decoration: underline;
 }
