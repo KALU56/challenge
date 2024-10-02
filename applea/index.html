@@ -7,165 +7,264 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/index.css">
 
 </head>
 <body>
-    <div class="all-page">
-        <header class="all-header">
-            <div class="continer-header">
-                <div class="continer">
-                    <ul>
-                        <li class="logo">
-                            <a href="#"><img src="images/icons/logo.png" alt="apple"></a>
-                        </li>
-                        <li>
-                            <a href="#">mac</a>
-                        </li>
-                        <li>
-                            <a href="#">iphone</a>
-                        </li>
-                        <li>
-                            <a href="#">ipad</a>
-                        </li>
-                        <li>
-                            <a href="#">watch</a>
-                        </li>
-                        <li>
-                            <a href="#">tv</a>
-                        </li>
-                        <li>
-                            <a href="#">music</a>
-                        </li>
-                        <li>
-                            <a href="#">support</a>
-                        </li>
-                        <li class="search">
-                            <a href="#"><img src="images/icons/search-icon.png" alt="search"></a>
-                        </li>
-                        <li class="cart">
-                            <a href="#"><img src="images/icons/cart.png" alt="cart"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
 
-        </header>
-		<section class="MacBook-page">
-			<div class="mackbook">
+		<!-- Navbar content -->
+	
+	<nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+		<div class="container ">
+
+			<li class=" logo-link "><a href="/"><img src="images/icons/logo.png"></a></li>
+
+		 
+		   <div class="collapse navbar-collapse " id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0 m">
+			 
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Mac</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">iphone</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">ipad</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">watch</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">tv</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">music</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Support</a>
+			  </li>
+			 
+			</ul>
 		
-				<div class="macinch">
-					<p>16-inch model</p>
-				</div>
-				<div class="pro">
-					<h1>Macbook pro</h1>
-				</div>
-				<div class="macdescription">
-					<h2>The best for the brightest.</h2>
-				</div>
-				<div class="link">
+		  </div> 
+		  <div class="d-flex justify-content-end ">
+		  <li class="search-link"><a href="/search/"><img src="images/icons/search-icon.png"></a></li>
+		  <li class="cart-link js"><a  href="/cart/"><img src="images/icons/cart.png"></a></li>
+		  <button class="navbar-toggler jst" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		</div>
+		</div>
+	  </nav>
+    
+	  
+<div class="container-fluid">
+	<section class="main-highlight-wrapper">
+		<div class="internal-wrapper"> 
+			<div class="model text-center">
+				16-inch model
+			</div>
+
+			<div class="product-title text-center">
+				MacBook Pro
+			</div>
+
+			<div class="brief-description text-center">
+				The best for the brightest.
+			</div>
+
+			<div class="links-wrapper text-center">
+				<ul>
 					<li><a href="">Learn more</a></li>
 					<li><a href="">Buy</a></li>
-				</div>
-				<div class="macimg">
-					<img src="images/home/macbook-pro.jpg" alt="">
-				</div>
+				</ul> 
 			</div>
-		</div>
-		<section class="iPhone-11page">
-			<div class="iphone">
-				<div class="iphone-11">
-					<h1>iPhone 11 Pro</h1>
-				</div>
-				<div class="description-iphone">
-					<h2>Pro cameras. Pro display. Pro performance.</h2>
-				</div>
-				<div class="money">
-					From $24.95/mo. or $599 with trade‑in.
-				</div>
-				<div class="link">
-					<li><a href="">Learn more</a></li>
-					<li><a href="">Buy</a></li> 
-				</div>
-				
-			</div>
-		</div>
-		<section class="iPhone11many">
-			<div class="iphonefor">
-				<div class="iphone-11">
-					<h1>iPhone 11 </h1>
-				</div>
-				<div class="description-iphone">
-					<h2>Just the right amount of everything.</h2>
-				</div>
-				<div class="money">
-					From $16.62/mo. or $399 with trade‑in.
-				</div>
-				<div class="link">
-					<li><a href="">Learn more</a></li>
-					<li><a href="">Buy</a></li> 
-				</div>
-				<!-- <div class="imgiphone">
-					<img src="images/home/iphone11-bg.jpg" alt="">
-				</div> -->
-			</div>
-		</div>
-		<section class="page4">
-			<div class="left-page">
-				<div class="logo-page4"></div>
-				<div class="paragraph"></div>
-				<div class="link"></div>
-			</div>
-			<div class="rigth-page">
-				<div class="logo-page4"></div>
-				<div class="paragraph"></div>
-				<div class="link"></div>
+
+			<div class="main-image-wrapper d-flex justify-content-center">
+				<img src="images/home/mac-laptop.jpg"/>
 			</div>
 
 		</div>
-		<section class="page5">
-			<div class="left-page5">
-				<div class="logo-page5"></div>
-				<div class="page5-img"></div>
-				<div class="link1"></div>
-			</div>
-			<div class="rigth-page5">
-				<div class="paragraph1"></div>
-				<div class="paragraph2"></div>
-				<div class="link"></div>
+	</section> 
+</div>
+<div class="container-fluid">
+	<section class="second-hightlight-wrapper text-center">
+		<div class="internal-wrapper text-center">
+			<div class="title-wraper text-center">
+				iPhone 11 Pro 
+			</div> 
+
+			<div class="description-wrapper text-center">
+				Pro cameras. Pro display. Pro performance.
 			</div>
 
+			<div class="price-wrapper text-center">
+				From $24.95/mo. or $599 with trade‑in.
+			</div>
+
+			<div class="links-wrapper text-center">
+				<ul>
+					<li><a href="">Learn more</a></li>
+					<li><a href="">Buy</a></li>
+				</ul> 
+			</div>
 		</div>
-		<section class="page6">
-			<section class="MacBook-page">
-				<!-- <div class="mackbook">
+	</section>
+</div>
+<div class="container-fluid">
+	<section class="third-highlight-wrapper">
+		<div class="internal-wrapper">
+			<div class="title-wraper">
+				iPhone 11 
+			</div> 
+			<div class="description-wrapper">
+				Just the right amount of everything.
+			</div>
+			<div class="price-wrapper">
+				From $16.62/mo. or $399 with trade‑in.
+			</div>
+			<div class="links-wrapper">
+				<ul>
+					<li><a href="">Learn more</a></li>
+					<li><a href="">Buy</a></li>
+				</ul> 
+			</div>
+		</div>
+	</section>
+</div>
+	<div class="container-fluid">
 			
-					<div class="macinch">
-						<p>16-inch model</p>
+		<section class="fourth-heghlight-wrapper">
+			<div class="left-side-wrapper">
+				<div class="top-logo-wrapper">
+					<div class="logo-wrapper">
+						<img src="images/icons/watch-series5-logo.png">
 					</div>
-					<div class="pro">
-						<h1>Macbook pro</h1>
-					</div>
-					<div class="macdescription">
-						<h2>The best for the brightest.</h2>
-					</div>
-					<div class="link">
+				</div>
+				<div class="description-wraper">
+					With the new Always-On Retina display.<br>
+					You’ve never seen a watch like this.
+				</div>
+				<div class="links-wrapper">
+					<ul>
 						<li><a href="">Learn more</a></li>
 						<li><a href="">Buy</a></li>
-					</div>
-					<div class="macimg">
-						<img src="images/home/macbook-pro.jpg" alt="">
-					</div>
-				</div> -->
+					</ul> 
+				</div>
 			</div>
-			<div class="rigth-page6">
-				<div class="logo-page4"></div>
-				<div class="paragraph"></div>
-				<div class="link"></div>
-			</div>
+			<div class="right-side-wrapper">
+				<div class="top-logo-wrapper">
+					<div class="logo-wrapper">
+						<img src="images/icons/apple-card-logo.png">
+					</div>
+				</div>
+				<div class="description-wraper">
+					Get 3% Daily Cash on purchases from Apple using Apple Card.
+				</div>
+				<div class="links-wrapper">
+					<ul>
+						<li><a href="">Learn more</a></li>
+						<li><a href="">Buy</a></li>
+					</ul> 
+				</div>
+			</div>	
+		</section>
+	</div>
+	<div class="container-fluid">
+		<section class="fifth-heghlight-wrapper"> 
+			<div class="left-side-wrapper">
+				<div class="top-logo-wrapper">
+					<div class="logo-wrapper">
+						<img src="images/icons/apple-tv-logo.png">
+					</div>
+				</div>
 
-		</div>
-        <footer class="footer-wrapper">
+				<div class="tvshow-logo-wraper pb-5">
+					<img src="images/icons/servant-logo.png">
+				</div>
+
+				<div class="watch-more-wrapper">
+					<a href="#">Watch the trailer</a>
+				</div>
+			</div>
+			<div class="right-side-wrapper">
+				<div class="top-logo-wrapper">
+					<div class="logo-wrapper">
+						AirPods Pro
+					</div>
+				</div>
+
+				<div class="description-wraper">
+					Magic like you’ve never heard.
+				</div>
+
+				<div class="links-wrapper">
+					<ul>
+						<li><a href="">Learn more</a></li>
+						<li><a href="">Buy</a></li>
+					</ul> 
+				</div>
+			</div>	
+		</section>
+		<section class="sixth-heghlight-wrapper"> 
+			<div class="left-side-wrapper">
+				<div class="model">
+					16-inch model
+				</div>
+
+				<div class="product-title-small">
+					MacBook Pro
+				</div>
+
+				<div class="description-wraper">
+					The best for the brightest.
+				</div>
+
+				<div class="links-wrapper">
+					<ul>
+						<li><a href="">Learn more</a></li>
+						<li><a href="">Buy</a></li>
+					</ul> 
+				</div>
+			</div>
+			<div class="right-side-wrapper">
+				<div class="top-logo-wrapper">
+					<div class="logo-wrapper">
+						<img src="images/icons/new-ipad-logo.png">
+					</div>
+				</div>
+
+				<div class="description-wraper">
+					Like a computer. Unlike any computer.
+				</div>
+
+				<div class="links-wrapper">
+					<ul>
+						<li><a href="">Learn more</a></li>
+						<li><a href="">Buy</a></li>
+					</ul> 
+				</div>
+			</div>	
+		</section>
+	</div>
+<!-- 
+		
+
+
+
+
+		
+		
+		
+
+
+
+
+
+		<footer class="footer-wrapper">
 			<div class="internal-wrapper"> 
 				<div class="upper-text-container">
 					1. Trade In: Trade‑in values vary. iPhone 11 and iPhone 11 Pro promotional pricing is after trade‑in of iPhone 8 Plus and iPhone X in good condition. Additional trade‑in values require purchase of a new iPhone, subject to availability and limits. Must be at least 18. Apple or its trade-in partners reserve the right to refuse or limit any Trade In transaction for any reason. In‑store trade‑in requires presentation of a valid, government-issued photo ID (local law may require saving this information). Sales tax may be assessed on full value of new iPhone. Additional terms from Apple or Apple’s trade-in partners may apply. Monthly pricing: Available to qualified customers and requires 0% APR, 24‑month installment loan with Citizens One, and iPhone activation with AT&T, Sprint, T‑Mobile, or Verizon. <a href="#"> Full terms apply</a>.
@@ -286,11 +385,10 @@
 					</div>
 				</div>
 			</div>
-		</footer> 
-  
-       
-    </div>
+		</footer>  -->
+	</div>
 
-   
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>

@@ -212,7 +212,7 @@ body {
 /*Fourth Highlight Section */
 .fourth-heghlight-wrapper {
 	display: flex;
-  /* -webkit-box-pack: justify; */
+  -webkit-box-pack: justify;
   justify-content: space-between;
   background: #fff;
 }
